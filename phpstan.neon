@@ -1,0 +1,3 @@
+parameters:
+	ignoreErrors:
+	    - "#Psr\\SimpleCache\\InvalidArgumentException|ReflectionException is not subtype of Throwable#"

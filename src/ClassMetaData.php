@@ -59,7 +59,7 @@ class ClassMetaData implements \JsonSerializable, \Iterator, \ArrayAccess
 
     public function current() 
     {
-        return $this->array[$this->position];
+        return $this->items[$this->position];
     }
 
     public function key() 

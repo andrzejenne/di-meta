@@ -1,7 +1,8 @@
 <?php
 namespace BigBIT\DIMeta;
 
-
+use Iterator;
+use JsonSerializable;
 use Psr\SimpleCache\CacheInterface;
 
 /**
